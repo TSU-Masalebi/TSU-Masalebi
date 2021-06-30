@@ -1,0 +1,51 @@
+.navbar {
+    position: static;
+    top: 0px;
+    color: white !important;
+  }
+
+  .logo {
+    border-radius: 50px !important;
+    float: left;
+  }
+
+  .linkShortener {
+    color: black;
+    text-decoration: none !important;
+  }
+
+  .cardi:hover {
+    color: dodgerblue !important;
+    filter: drop-shadow(16px 16px 20px black) invert(5%);
+  }
+
+  .card-img-top:hover {
+    filter: contrast(130%);
+  }
+
+  .foot {
+    background-color: rgb(0, 0, 97);
+    color: snow;
+    padding: 30px;
+  }
+
+  @media only screen and (min-width: 1199.98px) {
+    #carouselExampleCaptions {
+      height: 70vh;
+      overflow: hidden;
+    }
+  }
+
+  .carousel-caption {
+    padding-bottom: 600px;
+    font-size: 2em;
+    color: dodgerblue;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+  }
+
+  @media only screen and (max-width: 1399.98px) {
+    .carousel-caption {
+      padding-bottom: 70px;
+    }
+  }
