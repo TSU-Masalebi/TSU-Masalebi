@@ -136,7 +136,7 @@ function takeResults() {
     };
     const gamotvlaFtext = function () {
         if (F > fKritic.value) {
-            return texti;
+            return texti1;
         } else {
             return texti2;
         };
